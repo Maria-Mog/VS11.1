@@ -18,13 +18,7 @@ namespace VS11._2
         {
             public double coefK { get; set; }
             public double coefB { get; set; }
-
-            public LevyeQuation(double coefK, double coefB)
-            {
-                this.coefK = coefK;
-                this.coefB = coefB;
-            }
-
+            
             public void Root()
             {
                 double resultX = -coefB / coefK;
